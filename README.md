@@ -25,18 +25,18 @@ Postgres: An open-source relational database.
 
 Run Docker Compose: Execute the following command to start all services defined in the Docker Compose file: docker-compose.yml
 
-docker-compose up -d
+```docker-compose up -d```
 This command will download the necessary Docker images, create containers, and start the services in detached mode.
 
-Verify the Services: Check if all the services are up and running:
+### Verify the Services: Check if all the services are up and running:
 
-docker-compose ps
+```docker-compose ps```
 You should see all services listed as 'running'.
 
-Accessing the Services:
+### Accessing the Services:
 
-Kafka Control Center is accessible at http://localhost:9021.
-Debezium UI is accessible at http://localhost:8080.
+Kafka Control Center is accessible at ```http://localhost:9021.```
+Debezium UI is accessible at ```http://localhost:8080.```
 Postgres is accessible on the default port 5432.
 Shutting Down: To stop and remove the containers, networks, and volumes, run:
 
